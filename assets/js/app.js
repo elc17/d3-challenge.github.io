@@ -174,7 +174,7 @@ function makeResponsive() {
     var selectedY = "obesity";
 
     // Read CSV
-    d3.csv("../assets/data/data.csv").then(function(data, err) {
+    d3.csv("./assets/data/data.csv").then(function(data, err) {
         if (err) throw err;
 
         data.forEach(function(data) {
